@@ -1,0 +1,167 @@
+
+*{box-sizing: border-box;}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/img-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 0.5rem 1rem 1.5rem 2rem ;
+    background-color: #f4f5f6;
+ 
+}
+.entete{
+    background-color:  #A9CEF4;
+    text-align: center;
+    background-image: url(../images/globe.jpg);
+    background-position:3%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.entete h1{
+    padding-bottom: 0.5rem;
+
+}
+
+nav li{
+   display: inline-block;
+   margin: 0 10px;
+}
+nav a{
+    display:inline-block;
+    padding: 0.7rem 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color:rgba(34, 126, 231, 0.8);
+    
+}
+nav a:hover{
+    display:inline-block;
+    padding: 0.7rem 1.3rem;
+    text-align: center;
+    background-color: rgb(96, 168, 170);
+    color:#A9CEF4;
+}
+
+
+
+.section1 h2,.section2 h2,.section3 h2,.section4 h2{
+    color:rgba(34, 126, 231, 0.8);
+      background-color: rgb(96, 168, 170);
+   
+}
+.section1 p,.section2 p,.section3 p,.section4 p{
+   margin-top: 1px;
+   margin-bottom: 1px;
+   line-height: 1.5;
+  
+ }
+ .section2 img{
+     float: right;
+     padding-left:5px;
+        
+ }
+ .section2 figure{
+     float: left;
+ 
+ }
+ .section2 figcaption{
+     text-align:center;
+ }
+    
+
+ .clear{
+     clear:both;
+ }
+ .section3 .imgfloat{
+     float: left;
+     margin-right: 10px;
+     
+
+ }
+ .section3 figure{
+     float: right;
+ }
+ .section3 ol{
+     clear: both;
+ }
+ .section3 .btn3{
+     color:rgba(50, 17, 238, 0.904);
+     
+ }
+
+ .section3 .btn4{
+     color:red;
+ }
+ .section3 .btn5{
+     color:blue;
+ }
+
+
+ .section4 ul li{
+    padding-bottom: 1rem;
+    color:rgb(96, 168, 170);
+ }
+
+
+ 
+ .btn{
+    text-decoration: none;
+    color:rgb(96, 168, 170);
+    border-top-right-radius: 1rem;
+ 
+}
+
+ .btn:hover{
+     border: 1px solid rgb(240, 240, 213);
+     background-color:#5a92a8;
+     color:rgb(204, 14, 14);
+     padding: 0.5rem;
+     
+ }
+
+ .btn:active{
+    background-color:rgb(12, 10, 10);
+    color:#f3f8fa;
+ }
+
+ .secFoot{
+    padding: 0.7rem;
+       
+ }
+ 
+
+ .footer-left,.footer-right{
+     display: inline-block;
+        
+ }
+
+ .footer-left{
+     padding-right: 16rem;
+     color:rgb(124, 142, 163);  
+     padding-left: 1rem;
+  
+ }
+ .footer-right{
+    color:rgb(161, 10, 10); 
+    padding-left: 1rem;  
+     
+}
+
+ 
+
+
+
+
+ 
+   
+
+
